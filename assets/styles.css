@@ -1,0 +1,110 @@
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Indie Flower', cursive; 
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bloc {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bloc video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    z-index: -100;
+    transform: translate(-50%, -50%);
+}
+
+.text-white {
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 50px;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title-h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.title-h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    text-decoration: underline 1px;
+}
+
+.name {
+    color: #fff;
+}
+
+.paragraphe {
+    font-family: 'Indie Flower', cursive;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+
+.accordion {
+    color: #000;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    background-color: white;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+
+.accordion:hover {
+    color: #b5c98d;
+}
+
+.accordion.active {
+    color: #8ba25a;
+    margin-bottom: 20px;
+}
+
+.panel {
+    padding: 0 20px;
+    background-color: #b5c98d;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.taillebloc {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b5c98d;
+}
+
+.neon {
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px rgb(223, 235, 117), 0 0 77px rgb(228, 144, 102), 0 0 100px #bf87a3
+}
